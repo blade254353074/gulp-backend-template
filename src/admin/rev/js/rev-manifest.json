@@ -1,0 +1,16 @@
+{
+  "page/car/add.js": "page/car/add-ba7f71f038.js",
+  "page/car/edit.js": "page/car/edit-1c3f702984.js",
+  "page/car/list.js": "page/car/list-ceb9954d66.js",
+  "page/editor/dialogs/emotion/emotion.js": "page/editor/dialogs/emotion/emotion-76936f7db5.js",
+  "page/editor/dialogs/formula/formula.js": "page/editor/dialogs/formula/formula-8450aa690e.js",
+  "page/editor/dialogs/image/image.js": "page/editor/dialogs/image/image-470f85dd3a.js",
+  "page/editor/dialogs/link/link.js": "page/editor/dialogs/link/link-a916857d12.js",
+  "page/editor/dialogs/map/map.js": "page/editor/dialogs/map/map-94e37901a9.js",
+  "page/editor/dialogs/video/video.js": "page/editor/dialogs/video/video-0331ffd8f9.js",
+  "page/editor/umeditor.js": "page/editor/umeditor-57850ee613.js",
+  "page/news/add.js": "page/news/add-b4b0e914fe.js",
+  "page/reserve/index.js": "page/reserve/index-44566e6e4a.js",
+  "page/user/login.js": "page/user/login-b8e2593b9a.js",
+  "public/base.js": "public/base-ca55d71dcb.js"
+}

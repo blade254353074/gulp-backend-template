@@ -1,0 +1,8 @@
+<option selected value="">选择品牌</option>
+{{each brandList}}
+    {{if brandId == $value.id}}
+    <option value="{{$value.id}}" selected>{{$value.name}}</option>
+    {{else}}
+    <option value="{{$value.id}}">{{$value.name}}</option>
+    {{/if}}
+{{/each}}

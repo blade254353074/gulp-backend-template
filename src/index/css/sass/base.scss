@@ -1,0 +1,41 @@
+$red: #E62925;
+$blue: #3DA9F7;
+.text-red {
+    color: $red;
+}
+
+.sending {
+    &:before {
+        content: "\e031";
+        display: inline-block;
+        position: relative;
+        top: 1px;
+        margin-right: 6px;
+        line-height: 1;
+        font-family: icon;
+        transform-origin: center;
+        animation: spin .6s linear infinite;
+    }
+}
+
+.reader {
+    font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    ul,
+    ol,
+    blockquote,
+    dl,
+    table,
+    pre {
+        margin-top: 0;
+        margin-bottom: 16px;
+    }
+    ul,
+    ol {
+        padding-left: 2em;
+        list-style-type: inherit;
+    }
+    img {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+}

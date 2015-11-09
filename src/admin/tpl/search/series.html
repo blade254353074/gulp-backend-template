@@ -1,0 +1,8 @@
+<option selected value="">选择车系</option>
+{{each seriesList}}
+    {{if seriesId == $value.id}}
+    <option value="{{$value.id}}" selected>{{$value.name}}</option>
+    {{else}}
+    <option value="{{$value.id}}">{{$value.name}}</option>
+    {{/if}}
+{{/each}}

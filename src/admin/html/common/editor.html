@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <title>易诚买车后台管理系统</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" href="/assets/admin/css/style.css">
+</head>
+
+<body>
+    <div id="app">
+        <div class="navigator">
+            <div class="logo">
+                <a href="/"><span>[</span>易诚用车<span>]</span></a>
+            </div>
+            <ul id="menu" class="menu">
+                <li class="menu-list">
+                    <a href="javascript:;"><span class="iconfont iconfont-list-alt"></span>新闻管理</a>
+                    <ul class="sub-menu-list">
+                        <li><a href="/admin/news/add.html">添加新闻</a></li>
+                        <li><a href="/admin/news/list.html">已发布的</a></li>
+                    </ul>
+                </li>
+                <li class="menu-list">
+                    <a href="javascript:;"><span class="iconfont iconfont-phone-alt"></span>预约管理</a>
+                    <ul class="sub-menu-list">
+                        <li><a href="/admin/reserve/handle.html">未处理列表</a></li>
+                        <li><a href="/admin/reserve/list.html">已处理列表</a></li>
+                    </ul>
+                </li>
+                <li class="menu-list">
+                    <a href="javascript:;"><span class="iconfont iconfont-scale"></span>汽车管理</a>
+                    <ul class="sub-menu-list">
+                        <li><a href="/admin/car/add.html">添加汽车</a></li>
+                        <li><a href="/admin/car/list.html">新车列表</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="app-content">
+            <div class="header-content"></div>
+            <div id="appContent" class="main-content">
+                <script type="text/plain" id="ueditor" style="width:100%;min-height:240px;"></script>
+            </div>
+        </div>
+    </div>
+    <script src="/assets/admin/js/public/base.js"></script>
+    <script src="/assets/admin/js/page/editor/umeditor.js"></script>
+</body>
+
+</html>
